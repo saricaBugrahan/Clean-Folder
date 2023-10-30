@@ -1,0 +1,18 @@
+{
+    "folder":
+    {
+        "folder_to_be_listen": "/home/bugra/Desktop/",
+        "period_of_listen": 5,
+        "image_types": [".jpg",".jpeg",".png",".gif",".bmp",".svg",".tiff",".tif",".ico"],
+        "docs_types": [".doc",".docx",".pdf",".txt",".rtf",".odt",".tex",".wks",".wps",".wpd",".ods",".xlr",".xls",".xlsx",".key",".odp",".pps",".ppt",".pptx"],
+        "video_types": ["mp4",".avi",".flv",".wmv",".mov",".mpg",".mpeg",".3gp",".mkv"]
+
+    },
+
+    "logger":
+    {
+        "log_file": "clean_folder.log",
+        "timezone": "Europe/Istanbul"
+    }
+
+}
