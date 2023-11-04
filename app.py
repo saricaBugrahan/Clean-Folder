@@ -23,16 +23,12 @@ if __name__ == "__main__":
     
     folder_to_be_listen = configuration_file["folder"]["folder_to_be_listen"]
     period_of_listen    = configuration_file["folder"]["period_of_listen"]
-    
-    music_extensions    = configuration_file["folder"]["music_extensions"]
-    video_extensions    = configuration_file["folder"]["video_extensions"]  
-    image_extensions    = configuration_file["folder"]["image_extensions"]
-    document_extensions = configuration_file["folder"]["document_extensions"]
-
-    extensions = {"music":music_extensions,"video":video_extensions,"image":image_extensions,"document":document_extensions}
     desired_locations = configuration_file["folder"]["desired_locations"]
+    create_new_folders = configuration_file["folder"]["create_new_folders"]
+
+
+
 
     logger = logger(log_file=log_file,timezone=timezone)
-
-    listener = file_listener(location=folder_to_be_listen,period_of_listen=5,logger=logger,extensions = extensions,desired_locations=desired_locations)
+    listener = file_listener(location=folder_to_be_listen,period_of_listen=5,logger=logger,create_new_folders=create_new_folders,desired_locations=desired_locations)
     listener.listen()

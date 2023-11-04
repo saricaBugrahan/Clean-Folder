@@ -3,17 +3,14 @@
     {
         "folder_to_be_listen": "/home/bugra/Desktop/",
         "period_of_listen": 5,
-        "music_extensions": [".mp3", ".wav", ".ogg"],
-        "video_extensions": [".mp4", ".avi", ".mkv"],
-        "image_extensions": [".jpg", ".jpeg", ".png", ".gif", ".bmp"],
-        "document_extensions": [".doc", ".docx", ".pdf", ".txt", ".xls", ".xlsx", ".ppt", ".pptx","txt", ".odt", ".ods", ".odp", ".odg", ".odf", ".sxw", ".sxc", ".sxi", ".sxd", ".stw"],
-        "desired_locations":["tedu","company","scripts","others"]
+        "desired_locations":["tedu","company","scripts","others"],
+        "create_new_folders":false
     },
 
     "logger":
     {
         "log_file": "clean_folder.log",
-        "timezone": "Europe/Istanbul"
+        "timezone": "Asia/Istanbul"
     }
 
 }
