@@ -1,16 +1,16 @@
 {
     "folder":
     {
-        "folder_to_be_listen": "/home/bugra/Desktop/",
+        "folder_to_be_listen": "/home/xxx/Desktop/",
         "period_of_listen": 5,
-        "desired_locations":["tedu","company","scripts","others"],
+        "desired_locations":["xxx","xxx","xxx","xxx"],
         "create_new_folders":false
     },
 
     "logger":
     {
         "log_file": "clean_folder.log",
-        "timezone": "Asia/Istanbul"
+        "timezone": "xxx/xxx"
     }
 
 }
